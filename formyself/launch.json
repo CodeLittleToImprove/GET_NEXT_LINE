@@ -1,0 +1,16 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug",
+            "program": "/Users/tbui-quo/Downloads/intra-uuid-f0b8706f-778d-41ca-b85e-952b6c338481-4655597-tbui-quo/a.out",
+            "args": [],
+            "cwd": "/Users/tbui-quo/Downloads/intra-uuid-f0b8706f-778d-41ca-b85e-952b6c338481-4655597-tbui-quo"
+        }
+    ]
+}

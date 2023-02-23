@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+
+int count_calls() {
+  static int count = 0;
+  return ++count;
+}
+
+
+int main() {
+  for (int i = 0; i < 5; i++) {
+    printf("Function count_calls was called %d times\n", count_calls());
+  }
+  return 0;
+}
+
